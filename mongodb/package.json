@@ -1,0 +1,14 @@
+{
+  "name": "mongodb",
+  "version": "1.0.0",
+  "description": "this is just connection purpose",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "bhaskar singh",
+  "license": "ISC",
+  "dependencies": {
+    "mongodb": "^6.19.0"
+  }
+}
