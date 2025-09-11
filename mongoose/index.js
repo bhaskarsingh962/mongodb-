@@ -2,8 +2,8 @@ const mongoose = require("mongoose");
 
 // const uri = "mongodb://127.0.0.1/shop";
 
-const uri =
-  "mongodb+srv://vbthapa55:qwerty123@cluster0.kziyfmu.mongodb.net/shop?retryWrites=true&w=majority";
+// const uri =
+//   "mongodb+srv://vbthapa55:qwerty123@cluster0.kziyfmu.mongodb.net/shop?retryWrites=true&w=majority";
 
 mongoose.connect(uri);
 
@@ -85,4 +85,5 @@ db.Students.insertMany(
   {
     "name": "Thapa",
     "age": 21,
+
   }
