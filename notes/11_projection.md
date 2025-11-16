@@ -37,26 +37,15 @@ _id field is always returned by default (unless excluded).
 
 👉 Example:
 
-js
-Copy code
 db.products.find({}, { name: 1, price: 1 })
 ✅ Returns only name, price, and _id.
-
-👉 Example (remove _id):
-
-js
-Copy code
+👉 Example (remove _id):e
 db.products.find({}, { name: 1, price: 1, _id: 0 })
 ✅ Returns only name and price (without _id).
-
 🔹 Exclusion Projection
 Use 0 to exclude a field.
-
 You cannot mix inclusion and exclusion in the same projection (except _id).
 
 👉 Example:
-
-js
-Copy code
 db.products.find({}, { description: 0, brand: 0 })
 ✅ Returns all fields except description and brand.

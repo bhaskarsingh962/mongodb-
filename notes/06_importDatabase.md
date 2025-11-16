@@ -6,7 +6,6 @@ This is useful when you want to load external data into MongoDB for testing or p
 ---
 
 ## 🔹 General Command
-
 ```bash
 mongoimport <filename>.json -d <database_name> -c <collection_name>
 Meaning:
